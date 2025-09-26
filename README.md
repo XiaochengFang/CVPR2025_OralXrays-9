@@ -23,13 +23,11 @@ https://drive.google.com/drive/folders/1Nm1673tPy_t8x69e5tvQTan0dQsGf-OM?usp=dri
 ### Please consider citing the following paper if you find this work useful for your research.
 
 ```
-@inproceedings{chen2025OralXrays,
+@inproceedings{chen2025oralxrays,
   title={OralXrays-9: Towards Hospital-Scale Panoramic X-ray Anomaly Detection via Personalized Multi-Object Query-Aware Mining},
   author={Chen, Bingzhi and Fu, Sisi and Fang, Xiaocheng and Cai, Jieyi and Zhang, Boya and Lu, Minhua and Liu, Yishu},
-  booktitle={Proceedings of the IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)},
-  volume={xxx},
-  number={xxx},
-  pages={xxx--xxx},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={15570--15579},
   year={2025}
 }
 ```
