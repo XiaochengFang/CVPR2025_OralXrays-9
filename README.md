@@ -8,7 +8,7 @@ In clinical practice, panoramic dental radiography is a widely employed imaging 
 
 <img src="./framework.png" width="800">
 
-## 📕 Dataset
+## 📚 Dataset
 1. You can download our dataset using the following link:
 ### Download OralXrays-9 Dataset:
 ```sh
@@ -27,23 +27,27 @@ data
       ├── train2017
       └── val2017
 ```
-### Download Model Checkpoints:
-```sh
-https://drive.google.com/drive/folders/1Nm1673tPy_t8x69e5tvQTan0dQsGf-OM?usp=drive_link
-```
 
 ## ⚙️ Installation
 We implement MOQAM using `MMDetection V2.25.3` and `MMCV V1.7.0`. We test our models under requires `python=3.7.1, torch=1.11.0, torchvision=0.12.0`. 
 
 ## 🚀 Training and testing
+
+### Download Model Checkpoints:
+```sh
+https://drive.google.com/drive/folders/1Nm1673tPy_t8x69e5tvQTan0dQsGf-OM?usp=drive_link
+```
+
 ### Training
 ```sh
 CUDA_VISIBLE_DEVICES=0 python tools/train.py configs/MOQAM.py 
 ```
+
 ### Testing
 ```sh
 CUDA_VISIBLE_DEVICES=0 python tools/test.py --model-config /path/to/model.py --checkpoint /path/to/checkpoint.pth 
 ```
+
 ## 📝 Citation
 
 ```sh
@@ -56,5 +60,4 @@ CUDA_VISIBLE_DEVICES=0 python tools/test.py --model-config /path/to/model.py --c
 }
 ```
 
-If you have any questions, please get in touch with us: chenbingzhi@bit.edu.cn or fangxiaocheng162@gmail.com
-.
+If you have any questions, please get in touch with us: chenbingzhi@bit.edu.cn or fangxiaocheng162@gmail.com.
