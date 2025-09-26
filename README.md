@@ -31,19 +31,19 @@ data
 ## ⚙️ Installation
 We implement MOQAM using `MMDetection V2.25.3` and `MMCV V1.7.0`. We test our models under requires `python=3.7.1, torch=1.11.0, torchvision=0.12.0`. 
 
-## 🚀 Training and testing
+## 🚀 Training and Testing
 
 ### Download Model Checkpoints:
 ```sh
 https://drive.google.com/drive/folders/1Nm1673tPy_t8x69e5tvQTan0dQsGf-OM?usp=drive_link
 ```
 
-### Training
+### Training:
 ```sh
 CUDA_VISIBLE_DEVICES=0 python tools/train.py configs/MOQAM.py 
 ```
 
-### Testing
+### Testing:
 ```sh
 CUDA_VISIBLE_DEVICES=0 python tools/test.py --model-config /path/to/model.py --checkpoint /path/to/checkpoint.pth 
 ```
