@@ -8,7 +8,7 @@ In clinical practice, panoramic dental radiography is a widely employed imaging 
 
 <img src="./framework.png" width="800">
 
-## Dataset
+## ⚙ Dataset
 ### Download OralXrays-9 Dataset:
 ```
 https://drive.google.com/drive/folders/1_y7ERcFicnOYY2DMR6Qe1W4KGdCsoQ1n?usp=drive_link
